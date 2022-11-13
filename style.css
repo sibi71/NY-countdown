@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://w0.peakpx.com/wallpaper/335/669/HD-wallpaper-rainy-day-blur-blur-blurry-shanghai-rain.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 80vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Lato', sans-serif;
+  
+
+
+}
+h1{
+    font-size: 60px;
+    
+
+}
+.countdown{
+    transform: scale(2);
+    display: none;
+    
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  
+    
+}
+.time h2{
+    
+    margin: 0 0 5px;
+    
+}
+.year{
+     font-size: 200px;
+     opacity: 0.5;
+     position: absolute;
+     bottom: 20px;
+
+}
+.loading{
+   width: 60px;
+}
